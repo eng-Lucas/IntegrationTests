@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.RunnerTest" time="21.276" tests="344" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="idea.version" value="2020.2.3"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Zulu\zulu-8\jre\bin"/>
+    <property name="java.vm.version" value="25.272-b17"/>
+    <property name="jdk.vendor.version" value="Zulu 8.50.0.21-CA-win64"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\319005\Desktop\Estudos\Faculdade\Testes de software\Atividades\IntegrationTests"/>
+    <property name="java.vendor.url" value="http://www.azulsystems.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\319005\Desktop\Estudos\Faculdade\Testes de software\Atividades\IntegrationTests"/>
+    <property name="java.runtime.version" value="1.8.0_272-b17"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Zulu\zulu-8\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\319005\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Zulu\zulu-8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Zulu\zulu-8\bin\;C:\Python38\Scripts\;C:\Python38\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\app\319005\product\11.2.0\client_2\bin;C:\app\319005\product\11.2.0\client_1;C:\app\319005\product\11.2.0\client_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Users\319005\AppData\Local\Microsoft\WindowsApps;C:\Users\319005\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\319005\AppData\Roaming\npm;C:\Program Files (x86)\Java\jre1.8.0_251\BIN;C:\Program Files\Maven\apache-maven-3.6.3\BIN;C:\Program Files\Azure Data Studio\bin;C:\Drivers;;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\319005"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="319005"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Zulu\zulu-8\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2020.2.3 verify"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="pt"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_272"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Zulu\zulu-8\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Zulu\zulu-8\jre\lib\resources.jar;C:\Program Files\Zulu\zulu-8\jre\lib\rt.jar;C:\Program Files\Zulu\zulu-8\jre\lib\sunrsasign.jar;C:\Program Files\Zulu\zulu-8\jre\lib\jsse.jar;C:\Program Files\Zulu\zulu-8\jre\lib\jce.jar;C:\Program Files\Zulu\zulu-8\jre\lib\charsets.jar;C:\Program Files\Zulu\zulu-8\jre\lib\jfr.jar;C:\Program Files\Zulu\zulu-8\jre\classes"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://www.azulsystems.com/support/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Dado que o usuário gostaria de salvar seu registro" classname="Cenário: Criação de um novo processo - POST" time="0.001"/>
+  <testcase name="E o usuário informar &quot;vara&quot; com valor igual a &quot;Osasco&quot;" classname="Cenário: Criação de um novo processo - POST" time="0"/>
+  <testcase name="E o usuário informar &quot;numero_processo&quot; com valor igual a &quot;12345&quot;" classname="Cenário: Criação de um novo processo - POST" time="0"/>
+  <testcase name="E o usuário informar &quot;natureza&quot; com valor igual a &quot;Guarda&quot;" classname="Cenário: Criação de um novo processo - POST" time="0"/>
+  <testcase name="E o usuário informar &quot;partes&quot; com valor igual a &quot;Lucas x Mirella&quot;" classname="Cenário: Criação de um novo processo - POST" time="0"/>
+  <testcase name="E o usuário informar &quot;urgente&quot; com valor igual a &quot;N&quot;" classname="Cenário: Criação de um novo processo - POST" time="0"/>
+  <testcase name="E o usuário informar &quot;arbitramento&quot; com valor igual a &quot;S&quot;" classname="Cenário: Criação de um novo processo - POST" time="0"/>
+  <testcase name="E o usuário informar &quot;assistente_social&quot; com valor igual a &quot;Aline&quot;" classname="Cenário: Criação de um novo processo - POST" time="0"/>
+  <testcase name="E o usuário informar &quot;data_entrada&quot; com valor igual a &quot;17/12/2020&quot;" classname="Cenário: Criação de um novo processo - POST" time="0"/>
+  <testcase name="E o usuário informar &quot;data_saida&quot; com valor igual a &quot;&quot;" classname="Cenário: Criação de um novo processo - POST" time="0"/>
+  <testcase name="E o usuário informar &quot;data_agendamento&quot; com valor igual a &quot;&quot;" classname="Cenário: Criação de um novo processo - POST" time="0"/>
+  <testcase name="E o usuário informar &quot;status&quot; com valor igual a &quot;Aguardando&quot;" classname="Cenário: Criação de um novo processo - POST" time="0"/>
+  <testcase name="E o usuário informar &quot;observacao&quot; com valor igual a &quot;&quot;" classname="Cenário: Criação de um novo processo - POST" time="0"/>
+  <testcase name="Quando o usuário clicar no botão salvar" classname="Cenário: Criação de um novo processo - POST" time="0"/>
+  <testcase name="Então o usuário deveria ver a mensagem &quot;salvo com sucesso&quot;" classname="Cenário: Criação de um novo processo - POST" time="0"/>
+  <testcase name="Cenário: Criação de um novo processo - POST" classname="Cenário: Criação de um novo processo - POST" time="0"/>
+  <testcase name="Dado que o usuário gostaria de salvar seu registro" classname="Cenário: Pegar o último processo que foi criado - GET" time="0"/>
+  <testcase name="E o usuário informar &quot;vara&quot; com valor igual a &quot;Osasco&quot;" classname="Cenário: Pegar o último processo que foi criado - GET" time="0"/>
+  <testcase name="E o usuário informar &quot;numero_processo&quot; com valor igual a &quot;12345&quot;" classname="Cenário: Pegar o último processo que foi criado - GET" time="0"/>
+  <testcase name="E o usuário informar &quot;natureza&quot; com valor igual a &quot;Guarda&quot;" classname="Cenário: Pegar o último processo que foi criado - GET" time="0"/>
+  <testcase name="E o usuário informar &quot;partes&quot; com valor igual a &quot;Lucas x Mirella&quot;" classname="Cenário: Pegar o último processo que foi criado - GET" time="0"/>
+  <testcase name="E o usuário informar &quot;urgente&quot; com valor igual a &quot;N&quot;" classname="Cenário: Pegar o último processo que foi criado - GET" time="0"/>
+  <testcase name="E o usuário informar &quot;arbitramento&quot; com valor igual a &quot;S&quot;" classname="Cenário: Pegar o último processo que foi criado - GET" time="0"/>
+  <testcase name="E o usuário informar &quot;assistente_social&quot; com valor igual a &quot;Aline&quot;" classname="Cenário: Pegar o último processo que foi criado - GET" time="0"/>
+  <testcase name="E o usuário informar &quot;data_entrada&quot; com valor igual a &quot;17/12/2020&quot;" classname="Cenário: Pegar o último processo que foi criado - GET" time="0"/>
+  <testcase name="E o usuário informar &quot;data_saida&quot; com valor igual a &quot;&quot;" classname="Cenário: Pegar o último processo que foi criado - GET" time="0"/>
+  <testcase name="E o usuário informar &quot;data_agendamento&quot; com valor igual a &quot;&quot;" classname="Cenário: Pegar o último processo que foi criado - GET" time="0"/>
+  <testcase name="E o usuário informar &quot;status&quot; com valor igual a &quot;Aguardando&quot;" classname="Cenário: Pegar o último processo que foi criado - GET" time="0"/>
+  <testcase name="E o usuário informar &quot;observacao&quot; com valor igual a &quot;&quot;" classname="Cenário: Pegar o último processo que foi criado - GET" time="0"/>
+  <testcase name="Dado que o usuário queira ver o último processo criado" classname="Cenário: Pegar o último processo que foi criado - GET" time="0"/>
+  <testcase name="Quando o usuário clicar em mostrar" classname="Cenário: Pegar o último processo que foi criado - GET" time="0"/>
+  <testcase name="Então o usuário deveria ver a mensagem &quot;sucesso&quot;" classname="Cenário: Pegar o último processo que foi criado - GET" time="0"/>
+  <testcase name="Cenário: Pegar o último processo que foi criado - GET" classname="Cenário: Pegar o último processo que foi criado - GET" time="0"/>
+  <testcase name="Dado que o usuário gostaria de salvar seu registro" classname="Cenário: Criar, alterar e mostrar o processo - POST, PUT e GET" time="0"/>
+  <testcase name="E o usuário informar &quot;vara&quot; com valor igual a &quot;Osasco&quot;" classname="Cenário: Criar, alterar e mostrar o processo - POST, PUT e GET" time="0"/>
+  <testcase name="E o usuário informar &quot;numero_processo&quot; com valor igual a &quot;12345&quot;" classname="Cenário: Criar, alterar e mostrar o processo - POST, PUT e GET" time="0"/>
+  <testcase name="E o usuário informar &quot;natureza&quot; com valor igual a &quot;Guarda&quot;" classname="Cenário: Criar, alterar e mostrar o processo - POST, PUT e GET" time="0"/>
+  <testcase name="E o usuário informar &quot;partes&quot; com valor igual a &quot;Lucas x Mirella&quot;" classname="Cenário: Criar, alterar e mostrar o processo - POST, PUT e GET" time="0"/>
+  <testcase name="E o usuário informar &quot;urgente&quot; com valor igual a &quot;N&quot;" classname="Cenário: Criar, alterar e mostrar o processo - POST, PUT e GET" time="0"/>
+  <testcase name="E o usuário informar &quot;arbitramento&quot; com valor igual a &quot;S&quot;" classname="Cenário: Criar, alterar e mostrar o processo - POST, PUT e GET" time="0"/>
+  <testcase name="E o usuário informar &quot;assistente_social&quot; com valor igual a &quot;Aline&quot;" classname="Cenário: Criar, alterar e mostrar o processo - POST, PUT e GET" time="0"/>
+  <testcase name="E o usuário informar &quot;data_entrada&quot; com valor igual a &quot;17/12/2020&quot;" classname="Cenário: Criar, alterar e mostrar o processo - POST, PUT e GET" time="0"/>
+  <testcase name="E o usuário informar &quot;data_saida&quot; com valor igual a &quot;&quot;" classname="Cenário: Criar, alterar e mostrar o processo - POST, PUT e GET" time="0"/>
+  <testcase name="E o usuário informar &quot;data_agendamento&quot; com valor igual a &quot;&quot;" classname="Cenário: Criar, alterar e mostrar o processo - POST, PUT e GET" time="0"/>
+  <testcase name="E o usuário informar &quot;status&quot; com valor igual a &quot;Aguardando&quot;" classname="Cenário: Criar, alterar e mostrar o processo - POST, PUT e GET" time="0"/>
+  <testcase name="E o usuário informar &quot;observacao&quot; com valor igual a &quot;&quot;" classname="Cenário: Criar, alterar e mostrar o processo - POST, PUT e GET" time="0"/>
+  <testcase name="Dado o usuário clicar no botão salvar" classname="Cenário: Criar, alterar e mostrar o processo - POST, PUT e GET" time="0"/>
+  <testcase name="Quando alterar o campo &quot;status&quot; para o valor &quot;Finalizado&quot;" classname="Cenário: Criar, alterar e mostrar o processo - POST, PUT e GET" time="0"/>
+  <testcase name="E o usuário clicar em editar" classname="Cenário: Criar, alterar e mostrar o processo - POST, PUT e GET" time="0"/>
+  <testcase name="Então o usuário deveria ver a mensagem &quot;sucesso&quot;" classname="Cenário: Criar, alterar e mostrar o processo - POST, PUT e GET" time="0"/>
+  <testcase name="Quando o usuário clicar em mostrar" classname="Cenário: Criar, alterar e mostrar o processo - POST, PUT e GET" time="0"/>
+  <testcase name="Então o usuário visualiza o campo &quot;vara&quot; com valor igual a &quot;Osasco&quot;" classname="Cenário: Criar, alterar e mostrar o processo - POST, PUT e GET" time="0"/>
+  <testcase name="E o usuário visualiza o campo &quot;numero_processo&quot; com valor igual a &quot;12345&quot;" classname="Cenário: Criar, alterar e mostrar o processo - POST, PUT e GET" time="0"/>
+  <testcase name="E o usuário visualiza o campo &quot;natureza&quot; com valor igual a &quot;Guarda&quot;" classname="Cenário: Criar, alterar e mostrar o processo - POST, PUT e GET" time="0"/>
+  <testcase name="E o usuário visualiza o campo &quot;partes&quot; com valor igual a &quot;Lucas x Mirella&quot;" classname="Cenário: Criar, alterar e mostrar o processo - POST, PUT e GET" time="0"/>
+  <testcase name="E o usuário visualiza o campo &quot;urgente&quot; com valor igual a &quot;N&quot;" classname="Cenário: Criar, alterar e mostrar o processo - POST, PUT e GET" time="0"/>
+  <testcase name="E o usuário visualiza o campo &quot;arbitramento&quot; com valor igual a &quot;S&quot;" classname="Cenário: Criar, alterar e mostrar o processo - POST, PUT e GET" time="0"/>
+  <testcase name="E o usuário visualiza o campo &quot;assistente_social&quot; com valor igual a &quot;Aline&quot;" classname="Cenário: Criar, alterar e mostrar o processo - POST, PUT e GET" time="0"/>
+  <testcase name="E o usuário visualiza o campo &quot;data_entrada&quot; com valor igual a &quot;2020-12-17&quot;" classname="Cenário: Criar, alterar e mostrar o processo - POST, PUT e GET" time="0"/>
+  <testcase name="E o usuário visualiza o campo &quot;data_saida&quot; com valor igual a &quot;&quot;" classname="Cenário: Criar, alterar e mostrar o processo - POST, PUT e GET" time="0"/>
+  <testcase name="E o usuário visualiza o campo &quot;data_agendamento&quot; com valor igual a &quot;&quot;" classname="Cenário: Criar, alterar e mostrar o processo - POST, PUT e GET" time="0"/>
+  <testcase name="E o usuário visualiza o campo &quot;status&quot; com valor igual a &quot;Finalizado&quot;" classname="Cenário: Criar, alterar e mostrar o processo - POST, PUT e GET" time="0"/>
+  <testcase name="E o usuário visualiza o campo &quot;observacao&quot; com valor igual a &quot;&quot;" classname="Cenário: Criar, alterar e mostrar o processo - POST, PUT e GET" time="0"/>
+  <testcase name="Cenário: Criar, alterar e mostrar o processo - POST, PUT e GET" classname="Cenário: Criar, alterar e mostrar o processo - POST, PUT e GET" time="0.001"/>
+  <testcase name="Dado que o usuário gostaria de salvar seu registro" classname="Cenário: Criar, deletar o processo e validar se foi deletado - POST, DELETE e GET" time="0"/>
+  <testcase name="E o usuário informar &quot;vara&quot; com valor igual a &quot;Osasco&quot;" classname="Cenário: Criar, deletar o processo e validar se foi deletado - POST, DELETE e GET" time="0"/>
+  <testcase name="E o usuário informar &quot;numero_processo&quot; com valor igual a &quot;12345&quot;" classname="Cenário: Criar, deletar o processo e validar se foi deletado - POST, DELETE e GET" time="0"/>
+  <testcase name="E o usuário informar &quot;natureza&quot; com valor igual a &quot;Guarda&quot;" classname="Cenário: Criar, deletar o processo e validar se foi deletado - POST, DELETE e GET" time="0"/>
+  <testcase name="E o usuário informar &quot;partes&quot; com valor igual a &quot;Lucas x Mirella&quot;" classname="Cenário: Criar, deletar o processo e validar se foi deletado - POST, DELETE e GET" time="0.001"/>
+  <testcase name="E o usuário informar &quot;urgente&quot; com valor igual a &quot;N&quot;" classname="Cenário: Criar, deletar o processo e validar se foi deletado - POST, DELETE e GET" time="0"/>
+  <testcase name="E o usuário informar &quot;arbitramento&quot; com valor igual a &quot;S&quot;" classname="Cenário: Criar, deletar o processo e validar se foi deletado - POST, DELETE e GET" time="0"/>
+  <testcase name="E o usuário informar &quot;assistente_social&quot; com valor igual a &quot;Aline&quot;" classname="Cenário: Criar, deletar o processo e validar se foi deletado - POST, DELETE e GET" time="0.001"/>
+  <testcase name="E o usuário informar &quot;data_entrada&quot; com valor igual a &quot;17/12/2020&quot;" classname="Cenário: Criar, deletar o processo e validar se foi deletado - POST, DELETE e GET" time="0"/>
+  <testcase name="E o usuário informar &quot;data_saida&quot; com valor igual a &quot;&quot;" classname="Cenário: Criar, deletar o processo e validar se foi deletado - POST, DELETE e GET" time="0.001"/>
+  <testcase name="E o usuário informar &quot;data_agendamento&quot; com valor igual a &quot;&quot;" classname="Cenário: Criar, deletar o processo e validar se foi deletado - POST, DELETE e GET" time="0"/>
+  <testcase name="E o usuário informar &quot;status&quot; com valor igual a &quot;Aguardando&quot;" classname="Cenário: Criar, deletar o processo e validar se foi deletado - POST, DELETE e GET" time="0"/>
+  <testcase name="E o usuário informar &quot;observacao&quot; com valor igual a &quot;&quot;" classname="Cenário: Criar, deletar o processo e validar se foi deletado - POST, DELETE e GET" time="0"/>
+  <testcase name="Dado o usuário clicar no botão salvar" classname="Cenário: Criar, deletar o processo e validar se foi deletado - POST, DELETE e GET" time="0"/>
+  <testcase name="Quando o usuário clicar em deletar" classname="Cenário: Criar, deletar o processo e validar se foi deletado - POST, DELETE e GET" time="0"/>
+  <testcase name="Então o usuário deveria ver a mensagem &quot;sem conteúdo&quot;" classname="Cenário: Criar, deletar o processo e validar se foi deletado - POST, DELETE e GET" time="0"/>
+  <testcase name="Quando o usuário clicar em mostrar" classname="Cenário: Criar, deletar o processo e validar se foi deletado - POST, DELETE e GET" time="0"/>
+  <testcase name="Então o usuário deveria ver a mensagem &quot;não encontrado&quot;" classname="Cenário: Criar, deletar o processo e validar se foi deletado - POST, DELETE e GET" time="0"/>
+  <testcase name="Cenário: Criar, deletar o processo e validar se foi deletado - POST, DELETE e GET" classname="Cenário: Criar, deletar o processo e validar se foi deletado - POST, DELETE e GET" time="0"/>
+  <testcase name="Dado que o usuário gostaria de salvar seu registro" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | salvo com sucesso |" time="0"/>
+  <testcase name="Dado que o usuário gostaria de salvar seu registro" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | salvo com sucesso |" time="0"/>
+  <testcase name="E o usuário informar &quot;vara&quot; com valor igual a &quot;Osasco&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | salvo com sucesso |" time="0"/>
+  <testcase name="E o usuário informar &quot;vara&quot; com valor igual a &quot;Osasco&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | salvo com sucesso |" time="0"/>
+  <testcase name="E o usuário informar &quot;numero_processo&quot; com valor igual a &quot;12345&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | salvo com sucesso |" time="0"/>
+  <testcase name="E o usuário informar &quot;natureza&quot; com valor igual a &quot;Guarda&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | salvo com sucesso |" time="0"/>
+  <testcase name="E o usuário informar &quot;natureza&quot; com valor igual a &quot;Guarda&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | salvo com sucesso |" time="0"/>
+  <testcase name="E o usuário informar &quot;partes&quot; com valor igual a &quot;Lucas x Mirella&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | salvo com sucesso |" time="0"/>
+  <testcase name="E o usuário informar &quot;partes&quot; com valor igual a &quot;Lucas x Mirella&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | salvo com sucesso |" time="0"/>
+  <testcase name="E o usuário informar &quot;urgente&quot; com valor igual a &quot;N&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | salvo com sucesso |" time="0"/>
+  <testcase name="E o usuário informar &quot;urgente&quot; com valor igual a &quot;N&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | salvo com sucesso |" time="0"/>
+  <testcase name="E o usuário informar &quot;arbitramento&quot; com valor igual a &quot;S&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | salvo com sucesso |" time="0"/>
+  <testcase name="E o usuário informar &quot;arbitramento&quot; com valor igual a &quot;S&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | salvo com sucesso |" time="0"/>
+  <testcase name="E o usuário informar &quot;assistente_social&quot; com valor igual a &quot;Aline&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | salvo com sucesso |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_entrada&quot; com valor igual a &quot;17/12/2020&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | salvo com sucesso |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_entrada&quot; com valor igual a &quot;17/12/2020&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | salvo com sucesso |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_saida&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | salvo com sucesso |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_saida&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | salvo com sucesso |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_agendamento&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | salvo com sucesso |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_agendamento&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | salvo com sucesso |" time="0.001"/>
+  <testcase name="E o usuário informar &quot;status&quot; com valor igual a &quot;Aguardando&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | salvo com sucesso |" time="0"/>
+  <testcase name="E o usuário informar &quot;status&quot; com valor igual a &quot;Aguardando&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | salvo com sucesso |" time="0"/>
+  <testcase name="E o usuário informar &quot;observacao&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | salvo com sucesso |" time="0"/>
+  <testcase name="E o usuário informar &quot;observacao&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | salvo com sucesso |" time="0"/>
+  <testcase name="E o usuário informar &quot;numero_processo&quot; com valor igual a &quot;1234&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | salvo com sucesso |" time="0"/>
+  <testcase name="E o usuário informar &quot;assistente_social&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | salvo com sucesso |" time="0"/>
+  <testcase name="Quando o usuário clicar no botão salvar" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | salvo com sucesso |" time="0"/>
+  <testcase name="Então o usuário deveria ver a mensagem &quot;salvo com sucesso&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | salvo com sucesso |" time="0"/>
+  <testcase name="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | salvo com sucesso |" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | salvo com sucesso |" time="0.001"/>
+  <testcase name="Dado que o usuário gostaria de salvar seu registro" classname="|  |  |  |  |  |  | entidade não processada |" time="0"/>
+  <testcase name="Dado que o usuário gostaria de salvar seu registro" classname="|  |  |  |  |  |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;vara&quot; com valor igual a &quot;Osasco&quot;" classname="|  |  |  |  |  |  | entidade não processada |" time="0.001"/>
+  <testcase name="E o usuário informar &quot;numero_processo&quot; com valor igual a &quot;12345&quot;" classname="|  |  |  |  |  |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;natureza&quot; com valor igual a &quot;Guarda&quot;" classname="|  |  |  |  |  |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;partes&quot; com valor igual a &quot;Lucas x Mirella&quot;" classname="|  |  |  |  |  |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;urgente&quot; com valor igual a &quot;N&quot;" classname="|  |  |  |  |  |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;urgente&quot; com valor igual a &quot;N&quot;" classname="|  |  |  |  |  |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;arbitramento&quot; com valor igual a &quot;S&quot;" classname="|  |  |  |  |  |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;arbitramento&quot; com valor igual a &quot;S&quot;" classname="|  |  |  |  |  |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;assistente_social&quot; com valor igual a &quot;Aline&quot;" classname="|  |  |  |  |  |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_entrada&quot; com valor igual a &quot;17/12/2020&quot;" classname="|  |  |  |  |  |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_saida&quot; com valor igual a &quot;&quot;" classname="|  |  |  |  |  |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_saida&quot; com valor igual a &quot;&quot;" classname="|  |  |  |  |  |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_agendamento&quot; com valor igual a &quot;&quot;" classname="|  |  |  |  |  |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_agendamento&quot; com valor igual a &quot;&quot;" classname="|  |  |  |  |  |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;status&quot; com valor igual a &quot;Aguardando&quot;" classname="|  |  |  |  |  |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;observacao&quot; com valor igual a &quot;&quot;" classname="|  |  |  |  |  |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;observacao&quot; com valor igual a &quot;&quot;" classname="|  |  |  |  |  |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;vara&quot; com valor igual a &quot;&quot;" classname="|  |  |  |  |  |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;numero_processo&quot; com valor igual a &quot;&quot;" classname="|  |  |  |  |  |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;natureza&quot; com valor igual a &quot;&quot;" classname="|  |  |  |  |  |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;partes&quot; com valor igual a &quot;&quot;" classname="|  |  |  |  |  |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;assistente_social&quot; com valor igual a &quot;&quot;" classname="|  |  |  |  |  |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_entrada&quot; com valor igual a &quot;&quot;" classname="|  |  |  |  |  |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;status&quot; com valor igual a &quot;&quot;" classname="|  |  |  |  |  |  | entidade não processada |" time="0"/>
+  <testcase name="Quando o usuário clicar no botão salvar" classname="|  |  |  |  |  |  | entidade não processada |" time="0"/>
+  <testcase name="Então o usuário deveria ver a mensagem &quot;entidade não processada&quot;" classname="|  |  |  |  |  |  | entidade não processada |" time="0"/>
+  <testcase name="|  |  |  |  |  |  | entidade não processada |" classname="|  |  |  |  |  |  | entidade não processada |" time="0.001"/>
+  <testcase name="Dado que o usuário gostaria de salvar seu registro" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 |  | entidade não processada |" time="0"/>
+  <testcase name="Dado que o usuário gostaria de salvar seu registro" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;vara&quot; com valor igual a &quot;Osasco&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;vara&quot; com valor igual a &quot;Osasco&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;numero_processo&quot; com valor igual a &quot;12345&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;natureza&quot; com valor igual a &quot;Guarda&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;natureza&quot; com valor igual a &quot;Guarda&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;partes&quot; com valor igual a &quot;Lucas x Mirella&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;partes&quot; com valor igual a &quot;Lucas x Mirella&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;urgente&quot; com valor igual a &quot;N&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;urgente&quot; com valor igual a &quot;N&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;arbitramento&quot; com valor igual a &quot;S&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;arbitramento&quot; com valor igual a &quot;S&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;assistente_social&quot; com valor igual a &quot;Aline&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_entrada&quot; com valor igual a &quot;17/12/2020&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_entrada&quot; com valor igual a &quot;17/12/2020&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_saida&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_saida&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_agendamento&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 |  | entidade não processada |" time="0.001"/>
+  <testcase name="E o usuário informar &quot;data_agendamento&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;status&quot; com valor igual a &quot;Aguardando&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;observacao&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;observacao&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;numero_processo&quot; com valor igual a &quot;1234&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;assistente_social&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 |  | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;status&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 |  | entidade não processada |" time="0.001"/>
+  <testcase name="Quando o usuário clicar no botão salvar" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 |  | entidade não processada |" time="0"/>
+  <testcase name="Então o usuário deveria ver a mensagem &quot;entidade não processada&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 |  | entidade não processada |" time="0"/>
+  <testcase name="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 |  | entidade não processada |" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | 17/12/2020 |  | entidade não processada |" time="0.001"/>
+  <testcase name="Dado que o usuário gostaria de salvar seu registro" classname="| Osasco | 1234 | Guarda | Lucas x Mirella |  | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="Dado que o usuário gostaria de salvar seu registro" classname="| Osasco | 1234 | Guarda | Lucas x Mirella |  | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;vara&quot; com valor igual a &quot;Osasco&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella |  | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;vara&quot; com valor igual a &quot;Osasco&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella |  | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;numero_processo&quot; com valor igual a &quot;12345&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella |  | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;natureza&quot; com valor igual a &quot;Guarda&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella |  | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;natureza&quot; com valor igual a &quot;Guarda&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella |  | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;partes&quot; com valor igual a &quot;Lucas x Mirella&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella |  | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;partes&quot; com valor igual a &quot;Lucas x Mirella&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella |  | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;urgente&quot; com valor igual a &quot;N&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella |  | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;urgente&quot; com valor igual a &quot;N&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella |  | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;arbitramento&quot; com valor igual a &quot;S&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella |  | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;arbitramento&quot; com valor igual a &quot;S&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella |  | Aguardando | entidade não processada |" time="0.001"/>
+  <testcase name="E o usuário informar &quot;assistente_social&quot; com valor igual a &quot;Aline&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella |  | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_entrada&quot; com valor igual a &quot;17/12/2020&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella |  | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_saida&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella |  | Aguardando | entidade não processada |" time="0.001"/>
+  <testcase name="E o usuário informar &quot;data_saida&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella |  | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_agendamento&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella |  | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_agendamento&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella |  | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;status&quot; com valor igual a &quot;Aguardando&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella |  | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;status&quot; com valor igual a &quot;Aguardando&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella |  | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;observacao&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella |  | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;observacao&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella |  | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;numero_processo&quot; com valor igual a &quot;1234&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella |  | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;assistente_social&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella |  | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_entrada&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella |  | Aguardando | entidade não processada |" time="0.001"/>
+  <testcase name="Quando o usuário clicar no botão salvar" classname="| Osasco | 1234 | Guarda | Lucas x Mirella |  | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="Então o usuário deveria ver a mensagem &quot;entidade não processada&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella |  | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="| Osasco | 1234 | Guarda | Lucas x Mirella |  | Aguardando | entidade não processada |" classname="| Osasco | 1234 | Guarda | Lucas x Mirella |  | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="Dado que o usuário gostaria de salvar seu registro" classname="| Osasco | 1234 | Guarda |  | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="Dado que o usuário gostaria de salvar seu registro" classname="| Osasco | 1234 | Guarda |  | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;vara&quot; com valor igual a &quot;Osasco&quot;" classname="| Osasco | 1234 | Guarda |  | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;vara&quot; com valor igual a &quot;Osasco&quot;" classname="| Osasco | 1234 | Guarda |  | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;numero_processo&quot; com valor igual a &quot;12345&quot;" classname="| Osasco | 1234 | Guarda |  | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;natureza&quot; com valor igual a &quot;Guarda&quot;" classname="| Osasco | 1234 | Guarda |  | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;natureza&quot; com valor igual a &quot;Guarda&quot;" classname="| Osasco | 1234 | Guarda |  | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;partes&quot; com valor igual a &quot;Lucas x Mirella&quot;" classname="| Osasco | 1234 | Guarda |  | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;urgente&quot; com valor igual a &quot;N&quot;" classname="| Osasco | 1234 | Guarda |  | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;urgente&quot; com valor igual a &quot;N&quot;" classname="| Osasco | 1234 | Guarda |  | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;arbitramento&quot; com valor igual a &quot;S&quot;" classname="| Osasco | 1234 | Guarda |  | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;arbitramento&quot; com valor igual a &quot;S&quot;" classname="| Osasco | 1234 | Guarda |  | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;assistente_social&quot; com valor igual a &quot;Aline&quot;" classname="| Osasco | 1234 | Guarda |  | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_entrada&quot; com valor igual a &quot;17/12/2020&quot;" classname="| Osasco | 1234 | Guarda |  | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_entrada&quot; com valor igual a &quot;17/12/2020&quot;" classname="| Osasco | 1234 | Guarda |  | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_saida&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 | Guarda |  | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_saida&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 | Guarda |  | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_agendamento&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 | Guarda |  | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_agendamento&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 | Guarda |  | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;status&quot; com valor igual a &quot;Aguardando&quot;" classname="| Osasco | 1234 | Guarda |  | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;status&quot; com valor igual a &quot;Aguardando&quot;" classname="| Osasco | 1234 | Guarda |  | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;observacao&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 | Guarda |  | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;observacao&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 | Guarda |  | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;numero_processo&quot; com valor igual a &quot;1234&quot;" classname="| Osasco | 1234 | Guarda |  | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;partes&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 | Guarda |  | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;assistente_social&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 | Guarda |  | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="Quando o usuário clicar no botão salvar" classname="| Osasco | 1234 | Guarda |  | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="Então o usuário deveria ver a mensagem &quot;entidade não processada&quot;" classname="| Osasco | 1234 | Guarda |  | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="| Osasco | 1234 | Guarda |  | 17/12/2020 | Aguardando | entidade não processada |" classname="| Osasco | 1234 | Guarda |  | 17/12/2020 | Aguardando | entidade não processada |" time="0.001"/>
+  <testcase name="Dado que o usuário gostaria de salvar seu registro" classname="| Osasco | 1234 |  | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="Dado que o usuário gostaria de salvar seu registro" classname="| Osasco | 1234 |  | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;vara&quot; com valor igual a &quot;Osasco&quot;" classname="| Osasco | 1234 |  | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;vara&quot; com valor igual a &quot;Osasco&quot;" classname="| Osasco | 1234 |  | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;numero_processo&quot; com valor igual a &quot;12345&quot;" classname="| Osasco | 1234 |  | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;natureza&quot; com valor igual a &quot;Guarda&quot;" classname="| Osasco | 1234 |  | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;partes&quot; com valor igual a &quot;Lucas x Mirella&quot;" classname="| Osasco | 1234 |  | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;partes&quot; com valor igual a &quot;Lucas x Mirella&quot;" classname="| Osasco | 1234 |  | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;urgente&quot; com valor igual a &quot;N&quot;" classname="| Osasco | 1234 |  | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;urgente&quot; com valor igual a &quot;N&quot;" classname="| Osasco | 1234 |  | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;arbitramento&quot; com valor igual a &quot;S&quot;" classname="| Osasco | 1234 |  | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;arbitramento&quot; com valor igual a &quot;S&quot;" classname="| Osasco | 1234 |  | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;assistente_social&quot; com valor igual a &quot;Aline&quot;" classname="| Osasco | 1234 |  | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0.001"/>
+  <testcase name="E o usuário informar &quot;data_entrada&quot; com valor igual a &quot;17/12/2020&quot;" classname="| Osasco | 1234 |  | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_entrada&quot; com valor igual a &quot;17/12/2020&quot;" classname="| Osasco | 1234 |  | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_saida&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 |  | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_saida&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 |  | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_agendamento&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 |  | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_agendamento&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 |  | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;status&quot; com valor igual a &quot;Aguardando&quot;" classname="| Osasco | 1234 |  | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;status&quot; com valor igual a &quot;Aguardando&quot;" classname="| Osasco | 1234 |  | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;observacao&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 |  | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;observacao&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 |  | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;numero_processo&quot; com valor igual a &quot;1234&quot;" classname="| Osasco | 1234 |  | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;natureza&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 |  | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;assistente_social&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 |  | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="Quando o usuário clicar no botão salvar" classname="| Osasco | 1234 |  | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="Então o usuário deveria ver a mensagem &quot;entidade não processada&quot;" classname="| Osasco | 1234 |  | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="| Osasco | 1234 |  | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" classname="| Osasco | 1234 |  | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0.002"/>
+  <testcase name="Dado que o usuário gostaria de salvar seu registro" classname="| Osasco |  | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="Dado que o usuário gostaria de salvar seu registro" classname="| Osasco |  | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;vara&quot; com valor igual a &quot;Osasco&quot;" classname="| Osasco |  | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;vara&quot; com valor igual a &quot;Osasco&quot;" classname="| Osasco |  | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;numero_processo&quot; com valor igual a &quot;12345&quot;" classname="| Osasco |  | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;natureza&quot; com valor igual a &quot;Guarda&quot;" classname="| Osasco |  | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;natureza&quot; com valor igual a &quot;Guarda&quot;" classname="| Osasco |  | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;partes&quot; com valor igual a &quot;Lucas x Mirella&quot;" classname="| Osasco |  | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;partes&quot; com valor igual a &quot;Lucas x Mirella&quot;" classname="| Osasco |  | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;urgente&quot; com valor igual a &quot;N&quot;" classname="| Osasco |  | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;urgente&quot; com valor igual a &quot;N&quot;" classname="| Osasco |  | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;arbitramento&quot; com valor igual a &quot;S&quot;" classname="| Osasco |  | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;arbitramento&quot; com valor igual a &quot;S&quot;" classname="| Osasco |  | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;assistente_social&quot; com valor igual a &quot;Aline&quot;" classname="| Osasco |  | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_entrada&quot; com valor igual a &quot;17/12/2020&quot;" classname="| Osasco |  | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_entrada&quot; com valor igual a &quot;17/12/2020&quot;" classname="| Osasco |  | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_saida&quot; com valor igual a &quot;&quot;" classname="| Osasco |  | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_saida&quot; com valor igual a &quot;&quot;" classname="| Osasco |  | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_agendamento&quot; com valor igual a &quot;&quot;" classname="| Osasco |  | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_agendamento&quot; com valor igual a &quot;&quot;" classname="| Osasco |  | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;status&quot; com valor igual a &quot;Aguardando&quot;" classname="| Osasco |  | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;status&quot; com valor igual a &quot;Aguardando&quot;" classname="| Osasco |  | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;observacao&quot; com valor igual a &quot;&quot;" classname="| Osasco |  | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;observacao&quot; com valor igual a &quot;&quot;" classname="| Osasco |  | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;numero_processo&quot; com valor igual a &quot;&quot;" classname="| Osasco |  | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;assistente_social&quot; com valor igual a &quot;&quot;" classname="| Osasco |  | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="Quando o usuário clicar no botão salvar" classname="| Osasco |  | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="Então o usuário deveria ver a mensagem &quot;entidade não processada&quot;" classname="| Osasco |  | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="| Osasco |  | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" classname="| Osasco |  | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="Dado que o usuário gostaria de salvar seu registro" classname="|  | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="Dado que o usuário gostaria de salvar seu registro" classname="|  | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;vara&quot; com valor igual a &quot;Osasco&quot;" classname="|  | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;numero_processo&quot; com valor igual a &quot;12345&quot;" classname="|  | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;natureza&quot; com valor igual a &quot;Guarda&quot;" classname="|  | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;natureza&quot; com valor igual a &quot;Guarda&quot;" classname="|  | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;partes&quot; com valor igual a &quot;Lucas x Mirella&quot;" classname="|  | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;partes&quot; com valor igual a &quot;Lucas x Mirella&quot;" classname="|  | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;urgente&quot; com valor igual a &quot;N&quot;" classname="|  | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;urgente&quot; com valor igual a &quot;N&quot;" classname="|  | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;arbitramento&quot; com valor igual a &quot;S&quot;" classname="|  | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;arbitramento&quot; com valor igual a &quot;S&quot;" classname="|  | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;assistente_social&quot; com valor igual a &quot;Aline&quot;" classname="|  | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_entrada&quot; com valor igual a &quot;17/12/2020&quot;" classname="|  | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_entrada&quot; com valor igual a &quot;17/12/2020&quot;" classname="|  | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_saida&quot; com valor igual a &quot;&quot;" classname="|  | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_saida&quot; com valor igual a &quot;&quot;" classname="|  | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_agendamento&quot; com valor igual a &quot;&quot;" classname="|  | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_agendamento&quot; com valor igual a &quot;&quot;" classname="|  | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;status&quot; com valor igual a &quot;Aguardando&quot;" classname="|  | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;status&quot; com valor igual a &quot;Aguardando&quot;" classname="|  | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;observacao&quot; com valor igual a &quot;&quot;" classname="|  | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;observacao&quot; com valor igual a &quot;&quot;" classname="|  | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;vara&quot; com valor igual a &quot;&quot;" classname="|  | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;numero_processo&quot; com valor igual a &quot;1234&quot;" classname="|  | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;assistente_social&quot; com valor igual a &quot;&quot;" classname="|  | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="Quando o usuário clicar no botão salvar" classname="|  | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="Então o usuário deveria ver a mensagem &quot;entidade não processada&quot;" classname="|  | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="|  | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" classname="|  | 1234 | Guarda | Lucas x Mirella | 17/12/2020 | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="Dado que o usuário gostaria de salvar seu registro" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | Invalida | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="Dado que o usuário gostaria de salvar seu registro" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | Invalida | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;vara&quot; com valor igual a &quot;Osasco&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | Invalida | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;vara&quot; com valor igual a &quot;Osasco&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | Invalida | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;numero_processo&quot; com valor igual a &quot;12345&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | Invalida | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;natureza&quot; com valor igual a &quot;Guarda&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | Invalida | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;natureza&quot; com valor igual a &quot;Guarda&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | Invalida | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;partes&quot; com valor igual a &quot;Lucas x Mirella&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | Invalida | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;partes&quot; com valor igual a &quot;Lucas x Mirella&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | Invalida | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;urgente&quot; com valor igual a &quot;N&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | Invalida | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;urgente&quot; com valor igual a &quot;N&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | Invalida | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;arbitramento&quot; com valor igual a &quot;S&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | Invalida | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;arbitramento&quot; com valor igual a &quot;S&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | Invalida | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;assistente_social&quot; com valor igual a &quot;Aline&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | Invalida | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_entrada&quot; com valor igual a &quot;17/12/2020&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | Invalida | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_saida&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | Invalida | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_saida&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | Invalida | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_agendamento&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | Invalida | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_agendamento&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | Invalida | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;status&quot; com valor igual a &quot;Aguardando&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | Invalida | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;status&quot; com valor igual a &quot;Aguardando&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | Invalida | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;observacao&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | Invalida | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;observacao&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | Invalida | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;numero_processo&quot; com valor igual a &quot;1234&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | Invalida | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;assistente_social&quot; com valor igual a &quot;&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | Invalida | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="E o usuário informar &quot;data_entrada&quot; com valor igual a &quot;Invalida&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | Invalida | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="Quando o usuário clicar no botão salvar" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | Invalida | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="Então o usuário deveria ver a mensagem &quot;entidade não processada&quot;" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | Invalida | Aguardando | entidade não processada |" time="0"/>
+  <testcase name="| Osasco | 1234 | Guarda | Lucas x Mirella | Invalida | Aguardando | entidade não processada |" classname="| Osasco | 1234 | Guarda | Lucas x Mirella | Invalida | Aguardando | entidade não processada |" time="0"/>
+</testsuite>
